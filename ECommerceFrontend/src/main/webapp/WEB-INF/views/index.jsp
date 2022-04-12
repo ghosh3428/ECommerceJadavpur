@@ -23,6 +23,10 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="${css}/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- DATATABLE -->
+    <link href="${css}/dataTables.bootstrap.css" rel="stylesheet">
+    <link href="${css}/jquery.dataTables.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="${css}/shop-homepage.css" rel="stylesheet">
@@ -43,15 +47,20 @@
 	<%@include file="about.jsp"%>
 	</c:if>
 	
-	<c:if test="${userclickallproducts == true}">
+	<c:if test="${userclickallproducts == true || userclickcategoryproducts == true}">
 	<%@include file="allproducts.jsp"%>
 	</c:if>
+	
 
 	<!-- Footer-->
 	<%@include file="./shared/footer.jsp"%>
 
     <!-- jQuery -->
     <script src="${js}/jquery.js"></script>
+    
+    <!-- DATATABLE  -->
+    <script src="${js}/dataTables.bootstrap.js"></script>
+    <script src="${js}/jquery.dataTables.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="${js}/bootstrap.min.js"></script>

@@ -8,19 +8,22 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
+                <a class="navbar-brand" href="${contextRoot}/home">Online Shopping</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#">About</a>
+                        <a href="${contextRoot}/aboutus">About</a>
                     </li>
                     <li>
                         <a href="#">Services</a>
                     </li>
                     <li>
                         <a href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a href="${contextRoot}/product/view/all/active">All Product</a>
                     </li>
                 </ul>
             </div>

@@ -34,19 +34,5 @@ public class FrontController
 
 		return mv;
 	}
-	
-	
-	@RequestMapping(value="/all/products")
-	public ModelAndView allproducts()
-	{
-		ModelAndView mv = new ModelAndView("index");
-		
-		mv.addObject("title" ,"E_COMMERCE FRONTEND ALL PRODUCTS");
-		mv.addObject("userclickallproducts", true);
-
-		return mv;
-	}
-	
-	
 
 }
